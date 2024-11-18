@@ -1,0 +1,107 @@
+<!-- id - индивидуальный индификатор, для ВСЕХ объектов, нельзя написать один
+и тот же в одном файле .html -->
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="discord:" content="byxoy_datel">
+    <meta name="description" content="Test HTML">
+    <meta name="keywords" content="Test, html">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Главная старница</title>
+  </head>
+  <body class="">
+    <h1 id="rule">Правила:</h1>
+    <hr>
+    <p class="rules">
+      1 правило: не <i><strike>страница</strike></i> а <b>старница</b><br>
+      2 правило: H<sub>2</sub>O<br>
+      3 правило: ahgfdwsdfghjkjhgfd <sup>2</sup> <br>
+      4 правило: <b title="sigma">sigma</b> <br>
+      5 правило: <a href="https://google.com" target="_blank"
+       title="Сайт google">GOOGLE</a> <br>
+      <!-- Если мы находимся на локальном сервере и мы хотим использовать
+      другой файл из нашего проекта
+       (в нашем случае about.html), то перед названием ставим / -->
+      6 правило: <a href="about.html" title="Привет!">Страница Приветствия</a>
+      <br>
+      7 правило: <a href="#rule">Наши правила</a> <br>
+      8 правило: <a href="mailto:sagetovamal@gmail.com">
+        Написать на нашу почту</a> <br>
+      9 правило: <img src="https://yt3.googleusercontent.com/oNDEYAns2dmYJrDwqrTSApIJ-BoBpqlbtSrLSOS7GfmJNBT9gXoemfIS1Drj3FhfxnNcbAAA7A=s900-c-k-c0x00ffffff-no-rj"
+       alt="Dobryak" width="100px" title="Yotube: Dobryak"> <br>
+      10 правило: <img src="img/найс.jpg" width="100px" alt="Найс"
+       title="Yotube: Найс"> <br>
+      11 правило: <div>Это строка</div> <div>Это тоже строка</div> <br>
+      12 правило: <span>Это строка</span> <span>Это уже не строка</span> <br>
+      13 правило: <form class="" action="index.html" method="post">
+        <label for="user_name">Введите имя</label>
+        <!-- hidden - скрыть, disabled - отключить поле для ввода
+      value - уже написать что то в поле readonly - можно только читать,
+    required - нельзя отправить форму если там ничего не написано -->
+        <input type="text" name="user_name" placeholder="Ваше имя" value=""
+        maxlength="16" id="user_name"> <br>
+
+        <label for="pass">Введите пароль</label>
+        <input type="password" name="pass" id="pass" maxlength="16"
+        placeholder="Ваш пароль" value=""> <br>
+
+        <label for="mail">Введите почту</label>
+        <input type="email" name="mail" id="mail" placeholder="Ваша почта"
+         value=""> <br>
+
+        <label for="day_live">Введите день рождения</label>
+        <input type="date" name="day_live" id="day_live" value=""> <br>
+
+        <label for="colors">Введите цвет</label>
+        <input type="color" name="colors" id="colors" value=""> <br>
+
+        <label for="gal">Поставте галочку</label>
+        <input type="checkbox" name="gal" id="gal" value=""> <br>
+
+        <label for="gender">Выберите ваш пол</label> <br>
+        <input type="radio" name="gender"value=""> <span>Мужской</span> <br>
+        <input type="radio" name="gender" value=""> <span>Женский</span> <br>
+
+        <label for="files">Выберите файл</label>
+        <input type="file" name="files" id="files" value=""> <br>
+
+        <input type="button" name="push" id="push" value="Нажать"> <br>
+
+        <input type="submit" name="confirm" id="confirm" value="Подтвердить">
+        <input type="reset" name="clean" id="clean" value="Очистить">
+      </form> <br>
+      14 правило:
+      <form class="" action="index.html" method="post">
+        <textarea placeholder="Введите сочинение">Ваше сочинение</textarea> <br>
+        <button type="button" name="buttons">Просто кнопка,
+           есть еще submit и reset в графе type
+        </button>
+      </form> <br>
+      15 правило:
+      <form class="" action="index.html" method="post">
+        Выберите своего storytimer'а
+        <select class="" name="">
+          <option disabled selected>---</option>
+          <option value="">Найс</option>
+          <option value="">Dobryak</option>
+        </select>
+      </form> <br>
+      16 правило:
+      <header>Шапка</header>
+      <main>Основа</main>
+      <aside>Бок сайта</aside>
+      <footer>Футер</footer>
+      17 правило:
+      <progress value="90" max="100">90%</progress> <br>
+      18 правило:
+      <details>
+        <summary>Подробнее</summary>
+        Lorem sigma koroche
+      </details>
+    </p>
+    <script src="JavaScript/scripts.js"></script>
+  </body>
+</html>
